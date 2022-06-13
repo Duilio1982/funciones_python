@@ -11,10 +11,11 @@
 
 def imprimir_mayor(numero_1, numero_2):
     print("Funcion imprimir mayor")
-    # En esta función debe determinar cual de los dos
-    # números ingresados por parámetro es mayor
+    # En esta funcion debe determinar cual de los dos
+    # números ingresados ​​por parámetro es mayor
     # y luego imprimir dicho valor en pantalla
-
+    numeros  =  sorted ([numero_1 , numero_2])
+    print (f'El numero mayor es {numeros [- 1]}')
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
